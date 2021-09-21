@@ -5,7 +5,7 @@ function odd() {
 
   for (i = a; i <= b; i++) {
     if (i % 2 != 0) {
-      alert(i);
+      console.log(i);
     }
   }
 }
