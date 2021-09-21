@@ -1,10 +1,10 @@
 var a = document.getElementById("firstRange").value;
 var b = document.getElementById("secondRange").value;
-var submit = document.getElementById("getEven");
+var submit = document.getElementById("getOdd");
 
-function Even() {
+function odd() {
     for (var i = a; a < b; a++) {
-        if (a % 2 == 0) {
+        if (a % 2 !== 0) {
             console.log(a);
         
         }
@@ -13,7 +13,7 @@ function Even() {
     
 }
  submit.onclick = function(){
-    Even();
+    odd();
  }
 
  
