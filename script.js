@@ -1,19 +1,11 @@
-var a = document.getElementById("firstRange").value;
-var b = document.getElementById("secondRange").value;
-var submit = document.getElementById("getOdd");
-
 function odd() {
-    for (var i = a; a < b; a++) {
-        if (a % 2 !== 0) {
-            console.log(a);
-        
-        }
-        
-    }
-    
-}
- submit.onclick = function(){
-    odd();
- }
+  let a = parseInt(document.getElementsByClassName("first")[0].value);
+  let b = parseInt(document.getElementsByClassName("second")[0].value);
+  let submit = document.getElementsByClassName("odd");
 
- 
+  for (i = a; i <= b; i++) {
+    if (i % 2 != 0) {
+      alert(i);
+    }
+  }
+}
