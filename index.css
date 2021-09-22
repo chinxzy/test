@@ -1,8 +1,6 @@
-textarea{
-  width: 3em;
-  margin: 4em;
+.col-6>div{
+margin-bottom: 2em;
 }
-button{
-  width: 6em;
-  height: 3em
+#meters{
+  margin-bottom: 2em;
 }

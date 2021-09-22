@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-6">
+            <label>Meters</label>
+            <input type="number" id="meters" onchange="meter(this.value)" oninput="meter(this.value)">
+            <div>
+                <label>Kilometers</label>
+                <input type="number" id="kilometers" onchange="kilometer(this.value)" oninput="kilometer(this.value)">
+            </div>
+            <div>
+                <label>feets</label>
+                <input type="number" id="feet" onchange="feet(this.value)" oninput="feet(this.value)">
+            </div>
+      </div>
+    </div>
+
+    <script src="converter.js"></script>
+  </body>
+</html>
